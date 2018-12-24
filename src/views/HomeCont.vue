@@ -2,7 +2,7 @@
     <div class="homecont">
         <home-lunbo></home-lunbo>
         <brand-advantage></brand-advantage>
-        <optimal-works></optimal-works>
+        <!-- <optimal-works></optimal-works> -->
         <service-process></service-process>
         <best-youlai></best-youlai>
         <foot-cont></foot-cont>

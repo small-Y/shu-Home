@@ -16,41 +16,41 @@
                     <span class="h-right" @click="toDynamic">more+</span>
                 </h3>
                 <p>
-                    <span class="p-left">优莱装饰2018年度工作会议在涿州诚信大厦顺利召开</span>
+                    <span class="p-left">苏州厚道2018年度工作会议顺利召开</span>
                     <span class="p-right">2018-02-06</span>
                 </p>
                 <p>
-                    <span class="p-left">优莱装饰质量服务月圆满结束</span>
+                    <span class="p-left">苏州厚道质量服务月圆满结束</span>
                     <span class="p-right">2018-02-01</span>
                 </p>
                 <p>
-                    <span class="p-left">优莱装饰与固诺家居达成合作协议，在整体家装的道路上</span>
+                    <span class="p-left">苏州厚道与苏州一道达成合作协议</span>
                     <span class="p-right">2018-01-11</span>
                 </p>
                 <p>
-                    <span class="p-left">优莱装饰装修质量服务月启动</span>
+                    <span class="p-left">苏州厚道质量服务月启动</span>
                     <span class="p-right">2018-01-01</span>
                 </p>
                 <p>
-                    <span class="p-left">秦心设计师获艾舍奖新锐设计师称号</span>
+                    <span class="p-left">苏州厚道获得创新企业称号</span>
                     <span class="p-right">2018-01-01</span>
                 </p>
                 <p>
-                    <span class="p-left">蒙娜丽莎磁砖进驻优莱装饰</span>
+                    <span class="p-left">政府人员来苏州厚道参观视察</span>
                     <span class="p-right">2017-11-07</span>
                 </p>
                 <p>
-                    <span class="p-left">优莱装饰十月装修盛惠进行中</span>
+                    <span class="p-left">苏州厚道十月活动进行中</span>
                     <span class="p-right">2017-10-05</span>
                 </p>
             </div>
             <div class="zxrx">
-                <h3><span class="h-left">全国咨询热线：</span></h3>
+                <h3><span class="h-left">咨询热线：</span></h3>
                 <img src="../imgs/tel.jpg" alt="">
-                <h4><span class="h-left">总部地址：</span></h4>
-                <p class="h-left">北京市大兴区地盛北街一号院31号楼5层</p>
-                <h4><span class="h-left">分公司地址：</span></h4>
-                <p class="h-left">北京市朝阳区科学楼东路北行800米路西</p>
+                <h4><span class="h-left">所在地区：</span></h4>
+                <p class="h-left">江苏省苏州市苏州工业园区苏州工业园区直属镇</p>
+                <h4><span class="h-left">详细地址：</span></h4>
+                <p class="h-left">凤里街336号苏州人力资源服务产业园</p>
             </div>
         </div>
     </div>

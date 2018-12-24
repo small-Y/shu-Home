@@ -1,18 +1,14 @@
 <template>
     <div class="decoratecase">
-        <div class="casetitle">优莱首页 > {{casestyle}}</div>
+        <div class="casetitle">优莱首页 > 政策法规</div>
         <div class="case">
-            <div class="type">
-                <div class="classNav">
-                    <strong>家装风格分类：</strong>
-                    <li @click='changeImg(item)' v-for='(item,i) in TypeList' :key="i">{{item.text}}</li>
-                </div>
-            </div>
-            <div class="caseCont">
-                <div v-for="(item,i) in imgList" :key='i'>
-                    <img :src='"../imgs/"+item.img_url + ".png"' alt="">
-                </div>
-            </div>
+            <p>全面推开营改增试点迎来首个周年之际，我国近日亮出简并增值税税率等减税降费新举措。权威专家指出，此举对外释放出更坚定为实体经济降成本的信号，也将我国借力财税体制改革助推经济转型升级的大棋局更清晰地展现给世界。</p>
+            <h4>引领全球增值税改革浪潮</h4>
+            <p></p>
+            <h4>减负方案提振实体经济信心</h4>
+            <p></p>
+            <h4>要让企业减负“更有感”</h4>
+            <p></p>
         </div>
         <foot-cont></foot-cont>
     </div>
@@ -26,64 +22,7 @@
         },
         data() {
             return {
-                casestyle: '现代简约',
-                initV: {
-                    text: '现代简约',
-                    type: 'modern'
-                },
-                TypeList: [
-                    {
-                        text: '现代简约',
-                        type: 'modern'
-                    },
-                    {
-                        text: '中式风格',
-                        type: 'chinese'
-                    },
-                    {
-                        text: '欧式风格',
-                        type: 'ou'
-                    },
-                    {
-                        text: '美式风格',
-                        type: 'us'
-                    },
-                    {
-                        text: '乡村田园',
-                        type: 'rural'
-                    },
-                    {
-                        text: '地中海',
-                        type: 'mediter'
-                    },
-                    {
-                        text: '北欧',
-                        type: 'nodic'
-                    },
-                    {
-                        text: '新中式',
-                        type: 'newChinese'
-                    },
-                    {
-                        text: '混搭',
-                        type: 'mix'
-                    }
-                ],
-                imgList: [],
-            }
-        },
-        created () {
-            this.changeImg(this.initV)
-        },
-        methods: {
-            changeImg(v) {
-                this.casestyle = v.text;
-                var url = '/user/message/img?type=' + v.type;
-                this.$http.get(url).then(res=>{
-                    this.imgList = res.data.data;
-                }).catch(err=>{
-                    console.log(err);
-                })
+                
             }
         }
     }
@@ -100,32 +39,12 @@
         padding: 30px 20px;
         min-height: 40vh;
     }
-    .type div {
-        display: flex;
+    .case h4 {
+        margin: 10px;
+    }
+    .case p{
+        margin: 5px;
         font-size: .9rem;
-    }
-    .type div strong {
-        margin-right: 15px;
-        color: rgb(70, 66, 66);
-    }
-    .type div li {
-        list-style: none;
-        padding: 0 10px;
-        cursor: pointer;
-    }
-    .classNav {
-        margin: 0 auto 10px auto;
-    }
-    .caseCont {
-        margin: 10px auto 5px auto;
-        padding: 15px;
-    }
-    .caseCont div {
-        margin: 8px;
-        display: inline-block;
-    }
-    .caseCont div img {
-        width: 330px;
-        height: 240px;
+        text-indent: 2em;
     }
 </style>

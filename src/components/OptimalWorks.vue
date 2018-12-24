@@ -1,6 +1,6 @@
 <template>
     <div class="works">
-        <h1>优莱作品</h1>
+        <h1>厚道服务作品</h1>
         <p><span>更多>></span></p>
         <div class="worksContainer">
             <div v-for="(item,i) in worksList" :key='i'>

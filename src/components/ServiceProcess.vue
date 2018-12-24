@@ -18,32 +18,28 @@
             return {
                 processList: [
                     {
-                        title: '在线预约',
-                        content: '专属客服一对一回访'
+                        title: '咨询签约',
+                        content: '专属客服一对一咨询'
                     },
                     {
-                        title: '邀请到店',
-                        content:'参观线下实景样板间'
+                        title: '支付定金',
+                        content:'预付费签订合同'
                     },
                     {
-                        title: '确定方案',
-                        content:'设计师免费上门量房'
+                        title: '提交材料',
+                        content:'提交相关材料'
                     },
                     {
-                        title: '签订合同',
-                        content:'签订合同及交付装修款'
+                        title: '申请办理',
+                        content:'公司进行业务办理'
                     },
                     {
-                        title: '装修施工',
-                        content:'严格按照标准化施工'
+                        title: '办理成功',
+                        content:'结束用户办理业务'
                     },
                     {
-                        title: '竣工验收',
-                        content:'验收通过全屋装修指标'
-                    },
-                    {
-                        title: '装修保障',
-                        content:'享受国家标准质保'
+                        title: '结清尾款',
+                        content:'付清业务剩余金额'
                     }
                 ]
             }

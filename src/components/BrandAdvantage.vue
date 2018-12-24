@@ -2,7 +2,7 @@
     <div class="brand">
         <div class="brandhead">
             <h1>品牌优势</h1>
-            <p>优莱饰家成立10年来，为千余户业主提供家装等装修服务</p>
+            <p>厚道成立以来，为千余用户提供人力资源服务</p>
             <div class="brandbody">
                 <div v-for="(item,i) in brandList">
                     <img :src='"../imgs/brand"+(i+1)+".jpg"' alt="">
@@ -23,38 +23,38 @@
             return {
                 brandList: [
                     {
-                        title: '80道工艺标准  严格质检',
-                        content1: '标准化的施工工序，严格的检验标准,',
-                        content2: '按要求时时质检，自检互检相结合,',
+                        title: '资源汇聚  人力充足',
+                        content1: '标准化的审核程序，严格的检验标准,',
+                        content2: '与世界接轨的眼界，服务全国的胸襟,',
                         content3: '环环相扣，不留死角...',
                         img: 'brand1'
                     },
                     {
-                        title: '100%自有工人 绝不分包',
-                        content1: '优莱装饰负责施工的工人100%是自有',
-                        content2: '工人，经验丰富，爱岗敬业',
-                        content3: '。我们拥有严格的工人选拔及奖惩制度...',
+                        title: '助力中外企业 业务广泛',
+                        content1: '厚道提供量身定做的人力资源服务',
+                        content2: '经验丰富，鼎力相助',
+                        content3: '。我们拥有严格的审核和服务制度...',
                         img: 'brand2'
                     },
                     {
-                        title: '五星服务 放心无忧',
-                        content1: '装修全程为您提供全天候的服务，',
+                        title: '贴心服务员工 放心无忧',
+                        content1: '“贴心服务”是我们的追求',
                         content2: '我们配备了专属的服务团队， 及时沟通、',
-                        content3: '快速解决您装修中遇到的一切问题...',
+                        content3: '快速解决员工遇到的一切问题...',
                         img: 'brand3'
                     },
                     {
-                        title: '15大一线品牌 底价直供',
-                        content1: '优莱装饰使用的主材，',
-                        content2: '均来自市场一线品牌，质量有保证，',
+                        title: '诚心诚意 底价服务',
+                        content1: '厚道提供的服务，',
+                        content2: '均优于市场，质量有保证，',
                         content3: '以最低价直供客户...',
                         img: 'brand4'
                     },
                     {
-                        title: '优莱家具，高配中价',
-                        content1: '优莱橱柜、衣柜， ',
-                        content2: '专为城市精英阶层打造的',
-                        content3: '高配中价的定制家具...',
+                        title: '厚道服务，优服中价',
+                        content1: '厚道服务，价格 ',
+                        content2: '专为每一个用户打造的',
+                        content3: '优服中价的定制服务...',
                         img: 'brand5'
                     }
                 ]

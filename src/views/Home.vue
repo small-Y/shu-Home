@@ -4,7 +4,7 @@
             <div class="head-top">
                 <div style="margin-left:50px;"></div>
                 <div style="margin-right:50px;">
-                欢迎来到优莱饰家建筑装饰有限公司&nbsp;&nbsp;咨询热线：4008-072575
+                欢迎来到苏州厚道人力服务中心&nbsp;&nbsp;咨询热线：4008-072575
                 </div>
             </div>
             <div class="headMenu">
@@ -12,16 +12,16 @@
                 <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
                     <el-menu-item index="1"><router-link to="/">首页 </router-link></el-menu-item>
                     <el-submenu index="2">
-                        <template slot="title">关于优莱</template>
+                        <template slot="title">关于厚道</template>
                         <el-menu-item index="2-1"><router-link to="/youlai">公司简介</router-link></el-menu-item>
                         <el-menu-item index="2-2"><router-link to="/honor">企业荣誉</router-link></el-menu-item>
-                        <el-menu-item index="2-3"><router-link to="/ben">十大禁令</router-link></el-menu-item>
+                        <el-menu-item index="2-3"><router-link to="/ben">工作原则</router-link></el-menu-item>
                         <el-menu-item index="2-4"><router-link to="/culture">企业文化</router-link></el-menu-item>
                     </el-submenu>
-                    <el-menu-item index="3"> <router-link to="/dynamic">公司动态</router-link></el-menu-item>
-                    <el-menu-item index="4"><router-link to="/pack">装修套餐</router-link></el-menu-item>
-                    <el-menu-item index="5"><router-link to="/case">家装案例</router-link></el-menu-item>
-                    <el-menu-item index="6"><router-link to="/strategy">装修攻略</router-link></el-menu-item>
+                    <el-menu-item index="3"> <router-link to="/dynamic">行业新闻</router-link></el-menu-item>
+                    <el-menu-item index="4"><router-link to="/pack">核心服务</router-link></el-menu-item>
+                    <el-menu-item index="5"><router-link to="/case">政策法规</router-link></el-menu-item>
+                    <el-menu-item index="6"><router-link to="/strategy">企业寄语</router-link></el-menu-item>
                 </el-menu>
             </div>
         </div>
